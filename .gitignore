@@ -1,0 +1,11 @@
+__pycache__/
+
+*.py[cod]
+
+*.eps
+
+*$py.class
+
+.vscode/
+.idea/
+.ipynb_checkpoints/
