@@ -11,7 +11,7 @@ Since the GPS data sometimes present a null covariance (missing data, it is not 
 Another preparation step is to extract the angular velocity from the wheel encoder (odometer) dataset, which consisting of the position ($x_{o},y_{o}$) and heading ($\theta_{o}$), though only the heading (and a fixed translational velocity $V$) is used to obtain the angular velocity $\omega$.
 This is simply done by the following equation, where the translational velocity is assumed to be $V = 0.14m/s$, and the distance between the robot's wheels is fixed at $L = 1$ meter:
 
-$$\omega(k) &= \frac{V * tan(\theta_{odo}(k))}{L}$$
+$$\omega(k) = \frac{V * tan(\theta_{odo}(k))}{L}$$
 
 Where $k$ denotes the iteration step.
 Also the time interval between iterations is fixed in $dt = .001s$.
