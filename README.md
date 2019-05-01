@@ -1,3 +1,6 @@
+# IMPORTANT
+A PDF version of this file is provided (`README.pdf`) which shows the math equations/formulas (Github does not parse them).
+
 # CS791X Project: Sensor Fusion with Kalman Filter
 This is the first project for the CS791X (Robotics+Mobile SensorNetworks (MSNs)) (Fall 2015, University of Nevada, Reno) class. In this project we design a Kalman filter to fuse sensor data from GPS, IMU, and the wheel encoder of a mobile robot. The result is compared to the raw data from the sensors. The comparison shows a smoother trajectory when the filter is used.
 
